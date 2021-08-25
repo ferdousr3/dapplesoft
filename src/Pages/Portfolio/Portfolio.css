@@ -1,0 +1,96 @@
+.portfolio_section{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.portfolio_section_title {
+  position: relative;
+  display: inline-block;
+  padding: 0 3px;
+  
+}
+.portfolio_section_title .portfolio_section_title_text {
+  font-size: 1.3rem;
+  font-weight: 700;
+  position: relative;
+  margin: 0;
+  text-align: center !important;
+}
+.portfolio_section_title span{
+  position: absolute;
+  height: 7px;
+  width: 100%;
+  bottom: 5px ;
+  left: 0;
+  opacity: 0.4;
+  background-color: var(--main-color);
+}
+.customTabs {
+}
+.customTabs .active {
+  color: var(--main-color);
+}
+.customTabs .customTabs_item {
+  padding: 0px !important;
+  min-width: 0px !important;
+  margin-right: 20px !important;
+  text-transform: inherit !important;
+  font-weight: 600 !important;
+  outline-width: 0px !important;
+}
+.customCard {
+  height: 100%;
+  max-width: 350px;
+  box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08) !important;
+  border-radius: 5px;
+  overflow: hidden;
+  outline-width: 0px !important;
+}
+.customCard .customCard_image {
+  height: 160px;
+  margin: 10px !important;
+}
+.customCard .customCard_title {
+  font-weight: bold !important;
+}
+.customCard .cutomCard_caption {
+  color: gray !important;
+  font-weight: 400 !important;
+}
+.customCard > .MuiCardMedia-root {
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 20px 0px !important;
+}
+/* .projectDialog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+} */
+.projectDialog .projectDialog_image {
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+  
+}
+.projectDialog .projectDialog_description {
+  margin-top: 10px !important;
+}
+.projectDialog .projectDialog_actions {
+  justify-content: center !important;
+  margin-bottom: 10px;
+}
+.projectDialog .projectDialog_icon {
+  color: darkslategray !important;
+  margin: 0px 12px !important;
+  cursor: pointer !;
+}
+.projectDialog .projectDialog_icon :hover {
+  color: var(--main-color) !important;
+}
+.projectDialog .projectDialog_icon > .MuiSvgIcon-root {
+  font-size: 30px !important;
+}

@@ -1,0 +1,104 @@
+.profile {
+  /* background-color: #fff !important; */
+  color: darkslategrey !important;
+  display: flex;
+  align-items: center !important;
+  /* justify-content: center !important; */
+  border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px !important;
+  padding: 0px 25px;
+  box-shadow: 0px 2px 92px 0px rgb(0 0 0 / 7%) !important;
+}
+/* .profile_name {
+  line-height: 0px;
+  padding: 5px;
+} */
+.profile .name {
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--main-color);
+  margin-bottom: 10px;
+  text-decoration: none !important;
+}
+.profile .profile_link{
+  text-decoration: none !important;
+}
+.profile_name .title {
+  font-size: 14px;
+  color: #777;
+  font-weight: 500;
+  padding-top: 5px !important;
+}
+
+.profile_image img {
+  width: 20% !important;
+  height: 20% !important;
+}
+/*********Information************/
+.profile_information {
+  top: 0;
+  left: 0;
+}
+.profile_information .profile .timeline_content {
+}
+.timelineItem_text {
+  font-size: 13.5px !important;
+  color: #787878 !important;
+  font-weight: 400 !important;
+}
+.timelineItem_text > a {
+  color: #787878 !important;
+  text-decoration: none;
+}
+.timelineItem_text > span {
+  color: #000000;
+}
+
+.profile .profile_items_email {
+  color: var(--main-color);
+  font-size: 0.9rem !important;
+  /* text-align: center; */
+  font-weight: 500;
+  text-align: end;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.profile .profile_items_call {
+  color: var(--main-color);
+  font-size: 0.9rem !important;
+  /* text-align: center; */
+  font-weight: 500;
+  text-align: center !important;
+}
+.profile .profile_items span {
+  color: #000 !important;
+  font-weight: 600;
+}
+@media(min-with: 599px) {
+  .profile .profile_items_email {
+    color: #787878;
+    font-size: 0.9rem !important;
+    font-weight: 500;
+    text-align: center;
+   
+  }
+  .profile .profile_items_call {
+    color: #787878;
+    font-size: 0.9rem !important;
+    font-weight: 500;
+   text-align: center;
+  }
+  .profile .name {
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--main-color);
+    text-align: center !important;
+  }
+  .profile_image img {
+    width: 20% !important;
+    height: 20% !important;
+    text-align: center !important;
+  }
+}
